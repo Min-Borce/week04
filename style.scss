@@ -1,0 +1,111 @@
+body {
+    background-color: #ca9630;
+}
+
+.banner {
+    width: 100%;
+    margin-top: 0;
+}
+
+button {
+    margin-top: 1%;
+    margin-bottom: 1% !important;
+}
+
+.table-responsive {
+    background-color: #1b521b;
+    color: white;
+}
+
+h4 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.horse-size {
+    width: 10%;
+    font-style: white;
+}
+
+span {
+    color: white;
+}
+
+#horse-06,
+#horse-07,
+#horse-08,
+#horse-09,
+#horse-10 {
+    border-bottom: 5px dotted white;
+}
+
+#horse_001,
+#horse_002,
+#horse_003,
+#horse_004,
+// #horse_005,
+{
+    border-bottom: 5px dotted white;
+}
+
+#horse_01 {
+    position: relative;
+    animation: move-the-horse var(--animation-time);
+    animation-timing-function: linear;
+}
+
+#horse_02 {
+    position: relative;
+    animation: move-the-horse var(--animation-time);
+    animation-timing-function: linear;
+}
+
+#horse_03 {
+    position: relative;
+    animation: move-the-horse var(--animation-time);
+    animation-timing-function: linear;
+}
+
+#horse_04 {
+    position: relative;
+    animation: move-the-horse var(--animation-time);
+    animation-timing-function: linear;
+}
+
+#horse_05 {
+    position: relative;
+    animation: move-the-horse var(--animation-time);
+    animation-timing-function: linear;
+}
+
+#gifHorse {
+    display: none;
+}
+
+#newRace {
+    display: none;
+}
+
+#pngHorse {
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.pozadina {
+    background-color: #892b0f;
+    width: 100%;
+}
+
+.finish-line {
+    width: 2.49%;
+    float: right;
+    margin-right: -5px;
+}
+
+@keyframes move-the-horse {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 90%;
+    }
+}

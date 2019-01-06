@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <title>Horse Race - Week 04</title>
+</head>
+
+<body>
+    <header>
+        <div><img class="banner" src="img/horse-racing-banner.jpg"></div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <center> <button type="button" onclick="startRace()" id="startRace" class="btn btn-success  btn-lg">START RACE</button> </center>
+            <center> <button type="button" onclick="newRace()" id="newRace" class="btn btn-success btn-lg">NEW RACE</button> </center>
+        </div>
+        <div class="row ">
+            <div class="col-sm-10 col-md-10 col-lg-10">
+                <div class=""><img class="finish-line" src="img/finish_line5.png"></div>
+                <div class="pozadina">
+                    <div id="gifHorse">
+                        <div id="horse_001"><img class="horse-size" id="horse_01" src="img/horse_01_transparent.gif"></div>
+                        <div id="horse_002"><img class="horse-size" id="horse_02" src="img/horse_01_transparent.gif"></div>
+                        <div id="horse_003"><img class="horse-size" id="horse_03" src="img/horse_01_transparent.gif"></div>
+                        <div id="horse_004"><img class="horse-size" id="horse_04" src="img/horse_01_transparent.gif"></div>
+                        <div id="horse_005"><img class="horse-size" id="horse_05" src="img/horse_01_transparent.gif"></div>
+                    </div>
+                    <div id="pngHorse">
+                        <div id="horse-06"><img class="horse-size" src="img/horse_transparent.png"><span>Bucephalus</span></div>
+                        <div id="horse-07"><img class="horse-size" src="img/horse_transparent.png"><span>Pegasus</span></div>
+                        <div id="horse-08"><img class="horse-size" src="img/horse_transparent.png"><span>Lightning</span></div>
+                        <div id="horse-09"><img class="horse-size" src="img/horse_transparent.png"><span>Thunder</span></div>
+                        <div id="horse-10"><img class="horse-size" src="img/horse_transparent.png "><span>Comet</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2 col-md-2 col-lg-2">
+                <div class="row ">
+                    <div class="table-responsive">
+                        <h4>The Winner Is</h4>
+                        <table class="table">
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
